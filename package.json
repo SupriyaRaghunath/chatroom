@@ -1,0 +1,26 @@
+{
+  "name": "createsimpleapp",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupriyaRaghunath/chat-app.git"
+  },
+  "author": "Supriya PR <supriya.raghunath96@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SupriyaRaghunath/chat-app/issues"
+  },
+  "homepage": "https://github.com/SupriyaRaghunath/chat-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
